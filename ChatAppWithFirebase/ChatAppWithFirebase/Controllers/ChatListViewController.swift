@@ -9,20 +9,20 @@
 import UIKit
 class ChatListViewController: UIViewController{
     private let cellId = "cellId"
+
     @IBOutlet weak var ChatListTableView: UITableView!
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        //ChatListTableView.delegate = self
         ChatListTableView.delegate = self
         ChatListTableView.dataSource = self
         
     }
 }
 //Mark :-UITableViewDataSource,UITableViewDelegate
-extension ChatListViewController:
-UITableViewDataSource,UITableViewDelegate{
+extension ChatListViewController: UITableViewDataSource,UITableViewDelegate{
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 80
     }
