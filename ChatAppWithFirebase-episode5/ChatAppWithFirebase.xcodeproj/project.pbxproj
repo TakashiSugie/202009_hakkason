@@ -25,7 +25,7 @@
 		7CFDAB54241E6E6D005B2023 /* ChatList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CFDAB53241E6E6D005B2023 /* ChatList.storyboard */; };
 		7CFDAB56241E6EDB005B2023 /* ChatListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFDAB55241E6EDB005B2023 /* ChatListViewController.swift */; };
 		B96A23845542544F33E2D6A5 /* Pods_ChatAppWithFirebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9568FB9AE040AF136DA4C373 /* Pods_ChatAppWithFirebase.framework */; };
-		CC787386250FD0F70064B976 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CC787385250FD0F70064B976 /* GoogleService-Info.plist */; };
+		CC78738A2510CAF90064B976 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CC7873892510CAF90064B976 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,7 +73,7 @@
 		9568FB9AE040AF136DA4C373 /* Pods_ChatAppWithFirebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChatAppWithFirebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADA286375A7C5C9BBB979B16 /* Pods-ChatAppWithFirebase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatAppWithFirebase.release.xcconfig"; path = "Target Support Files/Pods-ChatAppWithFirebase/Pods-ChatAppWithFirebase.release.xcconfig"; sourceTree = "<group>"; };
 		C95A9231A6A5AFE8967C342D /* Pods-ChatAppWithFirebaseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatAppWithFirebaseTests.release.xcconfig"; path = "Target Support Files/Pods-ChatAppWithFirebaseTests/Pods-ChatAppWithFirebaseTests.release.xcconfig"; sourceTree = "<group>"; };
-		CC787385250FD0F70064B976 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CC7873892510CAF90064B976 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D1152494CEA44956F40CEF12 /* Pods_ChatAppWithFirebase_ChatAppWithFirebaseUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChatAppWithFirebase_ChatAppWithFirebaseUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6E3DDD60F0DB1324622BF83 /* Pods-ChatAppWithFirebase-ChatAppWithFirebaseUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatAppWithFirebase-ChatAppWithFirebaseUITests.debug.xcconfig"; path = "Target Support Files/Pods-ChatAppWithFirebase-ChatAppWithFirebaseUITests/Pods-ChatAppWithFirebase-ChatAppWithFirebaseUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		F8519C6B51C9A8232136AA9B /* Pods-ChatAppWithFirebaseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatAppWithFirebaseTests.debug.xcconfig"; path = "Target Support Files/Pods-ChatAppWithFirebaseTests/Pods-ChatAppWithFirebaseTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -223,8 +223,8 @@
 			children = (
 				5B0E7EB149BC5B56A4831BF9 /* Pods-ChatAppWithFirebase.debug.xcconfig */,
 				ADA286375A7C5C9BBB979B16 /* Pods-ChatAppWithFirebase.release.xcconfig */,
+				CC7873892510CAF90064B976 /* GoogleService-Info.plist */,
 				E6E3DDD60F0DB1324622BF83 /* Pods-ChatAppWithFirebase-ChatAppWithFirebaseUITests.debug.xcconfig */,
-				CC787385250FD0F70064B976 /* GoogleService-Info.plist */,
 				8E9C24A7EE1637C6D7188BB8 /* Pods-ChatAppWithFirebase-ChatAppWithFirebaseUITests.release.xcconfig */,
 				F8519C6B51C9A8232136AA9B /* Pods-ChatAppWithFirebaseTests.debug.xcconfig */,
 				C95A9231A6A5AFE8967C342D /* Pods-ChatAppWithFirebaseTests.release.xcconfig */,
@@ -342,12 +342,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C494E7C242257B600E1399C /* ChatRoomTableViewCell.xib in Resources */,
-				CC787386250FD0F70064B976 /* GoogleService-Info.plist in Resources */,
 				7CFDAB30241E6E3D005B2023 /* LaunchScreen.storyboard in Resources */,
 				7CFDAB2D241E6E3D005B2023 /* Assets.xcassets in Resources */,
 				7CFDAB54241E6E6D005B2023 /* ChatList.storyboard in Resources */,
 				7C11CD6A2425B2FF00EE9AD4 /* ChatInputAccessoryView.xib in Resources */,
 				7C494E782422548800E1399C /* ChatRoom.storyboard in Resources */,
+				CC78738A2510CAF90064B976 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
